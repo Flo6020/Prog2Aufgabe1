@@ -1,26 +1,24 @@
-# Project Title
+# Bitte lies mich!
 
-Briefly describe what your project is about.
+## Installationsanleitung
 
-## Table of Contents
+- lade dir den Ordner herunter unter öffne den Ordner in VS Code
+- Öffne ein Terminal
+- Erstelle eine neue Python-Umgebung
+    - `python -m venv .venv`
+- Aktiviere die Umgebung
+    - Windows: `.venv\Scripts\Activate`
+    - Linux: `source .venv/bin/activate`
+- Installiere die Pakete
+    - Entweder mit `pip install <paketname>`
+    - Oder mit `pip install -r requirement.txt`
+    
+## Benutzung
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- Starte das Programm mit `python main.py`
+- Das programm sortiert dir die Leistungswerte
+- Am Ende werden die Werte als Bild gespeichert
 
-## Installation
+## Contributor
+- Florian Just
 
-Explain how to install and set up your project.
-
-## Usage
-
-Provide instructions on how to use your project.
-
-## Contributing
-
-Specify how others can contribute to your project.
-
-## License
-
-Indicate the license under which your project is distributed.
