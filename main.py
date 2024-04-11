@@ -13,7 +13,7 @@ print(sorted_power_W[::-1])
 time = np.array(range(0, len(sorted_power_W)))
 time = time/60
 plt.plot(time, sorted_power_W[::-1])
-plt.xlabel('Time')
+plt.xlabel('Time in minutes')
 plt.ylabel('Power')
 plt.grid(True)
 
